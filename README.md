@@ -31,7 +31,9 @@ Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo 
 
   1. !python train.py --outdir ./results --snap=10 --data=custom_dataset/tfrecords_dataset --augpipe=bgcfnc --res=512
 
-      There are many other arguements that you can modify in train.py.
+      The code is just an sample. 
+
+      There are many other arguements for training that you can modify in train.py.
       
   2. Once you have the model file, you can generate "New Images".
 
@@ -39,7 +41,7 @@ Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo 
 
    1. #!python generate.py --outdir=out --trunc=0.5 --seeds=600-605 --network={path_to_pkl_model_file}
 
-      You have your own model file after training, so you can generate your own image.
+      You have **your own model file(pkl_model_file)** after training, so you can generate your own image.
 
 
 
