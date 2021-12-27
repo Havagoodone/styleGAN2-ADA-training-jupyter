@@ -19,6 +19,20 @@ Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo 
 * tensorflow 1.14
 * Hardware Spec : Geforce RTX 3090 x 2
 
+# If you have these erros
+
+* **No module "PIL"**
+  
+  -> install pillow (ex : conda install pillow, pip install pillow)
+  
+* **No module "requests"
+
+  -> install requests
+  
+* In addtion, you need to install **tensorflow-gpu==1.14, py-opencv** too.
+* And install **appropriate version of cudatoolkit and cudnn for your Hardware.
+* You need more details, Visit **Offical Site** linked above.
+
 # Procedure
 
 * **Preparing Custom Dataset**
