@@ -21,3 +21,25 @@ Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo 
 
 # Procedure
 
+* **Preparing Custom Dataset**
+
+  1. All the images are square and the same size. Resize all custom images to same size using openCV.
+  
+  2. Code needs the dataset to be in .tfrecords format. **We first need to convert our dataset to this format.** StyleGAN2-ADA has made a script that makes this conversion easy.
+
+* **Start to train**
+
+  1. !python train.py --outdir ./results --snap=10 --data=custom_dataset/tfrecords_dataset --augpipe=bgcfnc --res=512
+
+      There are many other arguements that you can modify in train.py.
+      
+  2. Once you have the model file, you can generate "New Images".
+
+* **Generate a new Image**
+
+   1. #!python generate.py --outdir=out --trunc=0.5 --seeds=600-605 --network={path_to_pkl_model_file}
+
+      You have your own model file after training, so you can generate your own image.
+
+
+
