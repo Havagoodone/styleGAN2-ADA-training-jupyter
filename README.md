@@ -53,7 +53,7 @@ Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo 
 
 * **Generate a new Image**
 
-   1. #!python generate.py --outdir=out --trunc=0.5 --seeds=600-605 --network={path_to_pkl_model_file}
+   1. !python generate.py --outdir=out --trunc=0.5 --seeds=600-605 --network={path_to_pkl_model_file}
 
       You have **your own model file(pkl_model_file)** after training, so you can generate your own image.
 
