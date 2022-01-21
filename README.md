@@ -11,20 +11,6 @@ Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo 
 
 * [Source](https://github.com/AarohiSingla/StyleGAN2-with-adaptive-discriminator-augmentation-ADA-) from Code With Aarohi
 
-# Environment
-
-* OS : windows
-* Anacoda
-* python 3.6
-* tensorflow 1.14
-* Hardware Spec : Geforce RTX 3090 x 2
-
-# If you have these erros
-
-* **No module "PIL"**
-  
-  -> install pillow (ex : conda install pillow, pip install pillow)
-
 # Procedure
 
 * **Preparing Custom Dataset**
