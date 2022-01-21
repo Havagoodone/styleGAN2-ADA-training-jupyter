@@ -24,14 +24,6 @@ Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo 
 * **No module "PIL"**
   
   -> install pillow (ex : conda install pillow, pip install pillow)
-  
-* **No module "requests"
-
-  -> install requests
-  
-* In addtion, you need to install **tensorflow-gpu==1.14, py-opencv** too.
-* And install **appropriate version of cudatoolkit and cudnn for your Hardware.
-* You need more details, Visit **Offical Site** linked above.
 
 # Procedure
 
